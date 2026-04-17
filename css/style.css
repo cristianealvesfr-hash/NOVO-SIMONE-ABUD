@@ -561,6 +561,7 @@ img {
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
+    line-height: 1.2;
 }
 
 .cta-final p {
@@ -763,6 +764,7 @@ img {
     padding: 1.5rem;
     z-index: 9999;
     box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
     display: none;
     opacity: 0;
     transform: translateY(100%);
@@ -870,6 +872,16 @@ img {
     
     .hero h2 {
         font-size: 2rem;
+    }
+    
+    .hero {
+        padding: 7rem 0 3rem;
+        min-height: auto;
+    }
+
+    .cta-final h2 {
+        font-size: 2rem;
+        line-height: 1.2;
     }
     
     .nav {
